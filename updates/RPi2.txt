@@ -1,0 +1,21 @@
+27.09.2016
+
+	-Add Wifi Menue
+	-New Menue Option
+	-Emu Updates
+
+02.09.2016
+
+	-Low Fps Fix (v.1.0.0.1 hatte nur 30FPs)
+
+01.09.2016
+	-Clean Build
+	-Playlist Fix (Musik,Bilder,Videos bleiben nun)
+	-Einträge können von Playlisten Gelöscht werden
+	-Sprach Fix.
+
+30.08.2016
+
+	-Fix Download Server
+	-Add GameCover Server
+	-Add 4do, Atari800

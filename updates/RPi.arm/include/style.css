@@ -1,0 +1,225 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Asap', sans-serif;
+  background-color: #2E64FE;
+  min-height: 100%;
+}
+
+h1 {
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+  height: 60px;
+  margin: 0;
+  width: 132px;
+}
+
+a {
+    color: #0404B4;
+    text-decoration: none;
+}
+
+h1 img {
+    height: 60px;
+}
+
+#menubar {
+  height: 60px;
+  background-color: #58FAF4;
+}
+
+#menubar nav {
+  float: left;
+}
+
+#menubar nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menubar nav li {
+  display: inline-block;
+  line-height: 60px;
+}
+
+#menubar nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 25px;
+}
+
+table {
+    width: 90%;
+    background: #BDBDBD;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table th {
+    padding: 20px 10px;
+    border-bottom: 4px solid #1abc9c;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(odd) td {
+    background: #E6E6E6;
+}
+
+table img {
+    max-width: 50px;
+}
+
+table tr {
+   margin: 0px 25px 0px 25px;
+}
+
+table tr:nth-child(2) {  
+  display: none;
+}
+
+table tr:last-child {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap'), local('Asap-Regular'), url(/include/fonts/asap-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Asap Bold'), local('Asap-Bold'), url(/include/fonts/asap-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Asap Italic'), local('Asap-Italic'), url(/include/fonts/asap-italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Asap Bold Italic'), local('Asap-BoldItalic'), url(/include/fonts/asap-bold-italic.ttf) format('truetype');
+}
+ code.middle {
+ background-color: #aaa;
+ color: #aaa;
+ }
+ code.max {
+ background-color: #faa;
+ color: #faa;
+ }
+ code.min {
+ background-color: #aaf;
+ color: #aaf;
+ }
+ #bardemo {
+   position:relative;
+   padding:0;
+   border: 1px solid #000;
+   font-family:verdana;
+   width:500px;
+   height:200px;
+   background: #fff;
+}
+#bardemo div.title {
+   padding:0;
+   position:relative;
+   font:12px;
+   font-weight:bold;
+   top:5px;
+   text-align:center;
+   line-height:15px;
+}
+#bardemo div.axis {
+   padding:0;
+   position:absolute;
+   top:30px;
+   left:50px;
+   width:400px;
+   height:150px;
+   border-bottom:1px solid black;
+   border-left:1px solid black;
+}
+#bardemo div.bar {
+   position:absolute;
+   left:0;
+   height:20px;
+   padding:10px 0 0 0;
+   text-align:right;
+   font-size:10px;
+   color:#fff;
+   font-weight:bold;
+}
+#bardemo div.bar_1 {
+   top:15px;
+   width:0px;
+   background:#c00 url(bar_sprite.png);
+}
+#bardemo div.bar_2 {
+   top:60px;
+   width:0px;
+   background:#0c0 url(bar_sprite.png);
+   background-position:0 -30px;
+}
+#bardemo div.bar_3 {
+   top:105px;
+   width:0px;
+   background:#00c url(bar_sprite.png);
+   background-position:0 -60px;
+}
+#bardemo div.labels {
+   padding:0;
+   position:absolute;
+   top:30px;
+   left:10px;
+   width:40px;
+   height:150px;
+   line-height:30px;
+}
+#bardemo div.label {
+   position:absolute;
+   left:0;
+   height:30px;
+   padding:0;
+   font-size:8px;
+}
+#bardemo div.label_1 {
+   top:15px;
+   color:#c00;
+}
+#bardemo div.label_2 {
+   top:60px;
+   color:#0c0;
+}
+#bardemo div.label_3 {
+   top:105px;
+   color:#00c;
+}
+#bardemo div.unit {
+   padding:0;
+   position:absolute;
+   top:180px;
+   left:50px;
+   width:400px;
+   font-size:8px;
+   text-align:center;
+}
